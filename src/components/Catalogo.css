@@ -1,0 +1,12 @@
+.pokemon-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 25px;
+  }
+  
+  .pokemon-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
